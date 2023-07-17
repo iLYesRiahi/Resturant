@@ -1,0 +1,23 @@
+@import './base.css';
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Miniver&display=swap");
+
+*{
+  font-family: 'Inter';
+}
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url('@/assets/icons/AppHeaderIcons/Bg.svg');
+  background-repeat: no-repeat;
+  background-position: top right;
+  
+}
+
+:root{
+  --global-padding: 290px;
+  --gray1: #333333;
+  --primary-color: #195A00;
+  --gray2:#4F4F4F;
+  --gray3: #828282;
+}
